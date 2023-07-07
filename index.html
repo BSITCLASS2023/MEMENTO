@@ -3,14 +3,6 @@
 <html>
 	<head>
 <!-- Google tag (gtag.js) -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-QD2VVE930R"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-
-		  gtag('config', 'G-QD2VVE930R');
-		</script>
 
 
 <title>CLASS'23 MEMENTO</title>
@@ -46,11 +38,20 @@
 
 
 
+<!-- Audio Agape -->
+ <script>
+      function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
+    </script>
+
+    <audio id="audio"src="assets/Agape.mp3"></audio>
 
 
 
 <ul class="actions">
-	<li><h4 class="major">you may explore some of the parts, Tap play to start.</h4><a href="#first" class="button primary color1 circle icon solid fa-angle-right">Next</a></li></ul>
+	<li><h4 class="major">you may explore some of the parts, Tap play to start.</h4><a href="#first" class="button primary color1 circle icon solid fa-angle-right" onclick="play()">Next</a></li></ul>
 	</ul>
 	</div>
 	</section>
