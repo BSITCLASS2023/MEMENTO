@@ -41,16 +41,18 @@
 	<div class="content color0 span-7">
 	<h1 class="major">BSIT Class of 2023<br/>
 	</h1>
-	<p>Memento will be completed in the next:</br>
-<strong><p id="demo"></p>
-</strong></p>
-
+	<p>Memento will be completed in the next:
+</p>
+</br>
+<strong><h3 id="demo"></h3>
+</strong>
 <!-- Display the countdown timer in an element -->
 <p id="demo"></p>
 
+
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
+var countDownDate = new Date("Sep 1, 2023 15:37:25").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -68,13 +70,13 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
+  document.getElementById("demo").innerHTML = days + "days " + hours + "hrs "
+  + minutes + "min " + seconds + "sec ";
 
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("demo").innerHTML = "If you saw this, it means hindi natapos lugi oras sa work, btw bawi nalang next life.Char!";
   }
 }, 1000);
 </script>
